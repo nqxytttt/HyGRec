@@ -1,11 +1,11 @@
-# HyGRec
+### HyGRec
 This is the implementation of HyGRec
 
 - Model framework
 
 ![png](https://github.com/nqxytttt/HyGRec/blob/main/HyGRec.png)
 
-# Requirements
+### Requirements
 
 ```
 PyTorch  1.11.0
@@ -17,7 +17,14 @@ scipy 1.5.4
 tqdm 4.48.2
 ```
 
-# Run Code
+### Hyperbolic Fine-tuning
 
-```python
-python train.py
+```
+bash run_train.sh
+```
+
+### Inference
+
+```
+bash run_test_ddp.sh
+```
