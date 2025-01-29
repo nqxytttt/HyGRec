@@ -31,6 +31,7 @@ def train(args):
     set_seed(args.seed)
     ensure_dir(args.output_dir)
 
+
     device_map = "auto"
     world_size = int(os.environ.get("WORLD_SIZE", 1))
     ddp = world_size != 1
